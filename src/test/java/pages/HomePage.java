@@ -20,6 +20,9 @@ public class HomePage extends BasePage 	{
 	By newAccountLink = By.partialLinkText("New Account");
 	By editAccountLink = By.partialLinkText("Edit Account");
 	By deleteAccountLink = By.partialLinkText("Delete Account");
+	By depositLink = By.partialLinkText("Deposit");
+	By withdrawLink = By.partialLinkText("Withdrawal");
+
 
 
 	
@@ -34,6 +37,8 @@ public class HomePage extends BasePage 	{
 	public void goToNewAccount() {driver.findElement(newAccountLink).click();}
 	public void goToEditAccount() {driver.findElement(editAccountLink).click();}
 	public void goToDeleteAccount() {driver.findElement(deleteAccountLink).click();}
+	public void goToDeposit() {driver.findElement(depositLink).click();}
+	public void goToWithdraw() {driver.findElement(withdrawLink).click();}
 	public String getHomePageDashboardUserName () {return driver.findElement(managerTitleText).getText();}
 	public String getWelcomeText () { return driver.findElement(welcomeText).getText();}
 

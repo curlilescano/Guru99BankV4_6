@@ -50,17 +50,7 @@ public class AddAndDeleteNewCustomerTest extends BaseTest {
     public void createNewCustomer() {
         loginPage.goToPageAndLoginWithValidUser();
         objHomePage.goToAddNewCustomer();
-        objAddNC.insertCustomerName("curli");
-        objAddNC.selectFemaleGender();
-        objAddNC.insertDoB("11111999");
-        objAddNC.insertAddress("Las heras 88");
-        objAddNC.insertCity("Quilmes");
-        objAddNC.insertState("Bernal");
-        objAddNC.insertPin("123456");
-        objAddNC.insertTelephone("123123123123123123");
-        objAddNC.insertEmail("aawaasdaal@asda.com");
-        objAddNC.insertPassword("1234");
-        objAddNC.submitForm();
+        objAddNC.createNewValidRandomCustomer();
 
         Assert.assertTrue(objCRS.getTitleCustomerRegistrationSuccessfully().contains("Customer Registered Successfully!!!"));
         CustomerIDFromAdd = objCRS.getCustomerId();

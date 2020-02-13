@@ -38,4 +38,5 @@ public class NewAccountPage extends BasePage {
     public void clickOnSubmitBtn(){
         click(submitBtn);
     }
+
 }

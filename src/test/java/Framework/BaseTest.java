@@ -39,13 +39,13 @@ public class BaseTest {
 		}
 	}
 
-	@AfterClass
-	public void afterSuite() {
-		if(null != driver) {
-			driver.close();
-//			driver.quit();
-		}
-	}
+//	@AfterClass
+//	public void afterSuite() {
+//		if(null != driver) {
+//			driver.close();
+////			driver.quit();
+//		}
+//	}
 
 	public WebDriver getDriver() {
 		return driver;

@@ -90,10 +90,10 @@ public class AddNewCustomerTest extends BaseTest {
 //		objCRS.clickContinueBtn();
 //	}
 
-	@AfterClass
-	public void cleanUp(){
-		driver.close();
-	}
+//	@AfterClass
+//	public void cleanUp(){
+//		driver.close();
+//	}
 
 
 
