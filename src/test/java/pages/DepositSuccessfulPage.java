@@ -32,4 +32,5 @@ public class DepositSuccessfulPage extends BasePage {
     public String getCurrentBalance() {
         return driver.findElement(currentBalance).getText();
     }
+
 }

@@ -65,5 +65,4 @@ public class DepositTest extends BaseTest {
         Assert.assertEquals(objDSP.getAmountCredited() , amountCredited);
 
     }
-
 }

@@ -27,4 +27,5 @@ public class WithdrawPage extends BasePage {
     public void submitWithdrawal () {
         driver.findElement(submitBtn).click();
     }
+
 }

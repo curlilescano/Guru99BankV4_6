@@ -79,7 +79,7 @@ public class WithdrawTest extends BaseTest {
         int iCredited = Integer.parseInt(amountCredited);
         int iDebited = Integer.parseInt(amountWithdrew);
         int iCurrentBalance = Integer.parseInt(objDSP.getCurrentBalance());
-
+        //Current Balance Assert
         Assert.assertEquals(iCurrentBalance , (iInitialDeposit + iCredited - iDebited));
 
     }

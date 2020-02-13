@@ -41,7 +41,5 @@ public class HomePage extends BasePage 	{
 	public void goToWithdraw() {driver.findElement(withdrawLink).click();}
 	public String getHomePageDashboardUserName () {return driver.findElement(managerTitleText).getText();}
 	public String getWelcomeText () { return driver.findElement(welcomeText).getText();}
-
-
-
+	
 }

@@ -26,5 +26,6 @@ public class DepositPage extends BasePage {
     }
     public void submitDeposit () {
         driver.findElement(submitBtn).click();
+
     }
 }

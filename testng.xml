@@ -4,9 +4,9 @@
 
     <test name="Add, Edit and Delete Customer and Account">
         <classes>
-<!--            <class name="tests.AddNewCustomerTest" />-->
-<!--            <class name="tests.AddAndEditNewCustomerTest" />-->
-<!--            <class name="tests.AddAndDeleteNewCustomerTest" />-->
+            <class name="tests.AddNewCustomerTest" />
+            <class name="tests.AddAndEditNewCustomerTest" />
+            <class name="tests.AddAndDeleteNewCustomerTest" />
             <class name="tests.AddNewAccountTest" />
             <class name="tests.AddAndEditNewAccountTest" />
             <class name="tests.AddAndDeleteNewAccountTest" />
